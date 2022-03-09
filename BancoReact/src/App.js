@@ -9,6 +9,7 @@ function App() {
         <p>
           Eres muy bueno amigo
         </p>
+        <p>Eres una bonita persona a.MICO</p>
         <a
           className="App-link"
           href="https://reactjs.org"
