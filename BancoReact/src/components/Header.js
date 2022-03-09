@@ -6,13 +6,14 @@ class Componente extends Component{
     render(){
         return(
             <div class = "row bg-dark fixed-top">
-                <div class = "row">
-                    <div class = "col-4 text-center">
+                <div class = "row text-light text-center">
+                <div class="col-4 align-self-center">
                     <button type="button" class="btn btn-secondary">Secondary</button>
-                    </div>
-                    <div class = "col-4 text-light text-center">
-                        <h1>Banco Santondor</h1>
-                    </div>
+                </div>
+                <div class="col-4 align-self-center">
+                    <h1>Banco Santondor</h1>
+                </div>
+                <div class="col-4 align-self-center">XD</div>
                 </div>
             </div>
         );
