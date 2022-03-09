@@ -4,7 +4,7 @@ import React,{Component} from "react";
 class Componente extends Component{
     //Permite rendeizar el código js
     render(){
-        return <h2>Componente de prueba desde la carpeta Componentes</h2>
+     return <h2>Componente de prueba desde la carpeta Componentes</h2>
     }
 }
 
