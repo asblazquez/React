@@ -2,10 +2,11 @@ import logo from './logo.svg';
 import './App.css';
 //Importamos el componente creado
 import Componente from './components/Componente';
+import Button from 'react-bootstrap/Button';
 
 function App() {
   return (
-    <div className="App">
+    <div className="container">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
@@ -20,6 +21,10 @@ function App() {
         >
           Learn React
         </a>
+        <br></br>
+        <button type="button" class="btn btn-danger">
+          Boton de prueba
+        </button>
       </header>
       {/* Sección nueva */}
       <section>
