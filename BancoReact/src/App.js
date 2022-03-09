@@ -1,5 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
+//Importamos el componente creado
+import Componente from './components/Componente';
 
 function App() {
   return (
@@ -19,6 +21,11 @@ function App() {
           Learn React
         </a>
       </header>
+      {/* Sección nueva */}
+      <section>
+        {/* Simplificación del componente */}
+        <Componente/>
+      </section>
     </div>
   );
 }
