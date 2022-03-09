@@ -7,7 +7,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Eres muy bueno amigo
+          Eres mas manco que Yair17
         </p>
         <p>Eres una bonita persona a.MICO</p>
         <a
