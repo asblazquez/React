@@ -12,7 +12,7 @@ function App() {
         <p>
           Eres mas manco que Yair17
         </p>
-        <p>Eres una bonita persona a.MICO</p>
+        <p>Eres una bonita persona a.MIC, y gallo es gay</p>
         <a
           className="App-link"
           href="https://reactjs.org"
