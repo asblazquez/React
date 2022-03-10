@@ -3,20 +3,13 @@ import Header from './Header';
 import ImageSlider from './ImageSlider';
 import About from './About';
 import Footer from './Footer';
+import Dropzone from './DropZone';
 
 function Home() {
   return (
     <div>
-        <Header/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <About/>
-        <ImageSlider/>
-        <br/>
-        <br/>
-        <br/>
+      <About/>
+      <ImageSlider/>
     </div>
   )
 }

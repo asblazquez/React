@@ -2,11 +2,8 @@ import React,{useState} from "react";
 import {useDropzone} from 'react-dropzone';
 
 
-
-class Componente extends Component{
-    //Permite rendeizar el código js
-    render(){
-        const [files, setFiles] = useState([])
+const DropZone = () => {
+    const [files, setFiles] = useState([])
 
         const { getRootProps, getInputProps } = useDropzone({
             accept: "image/*",
@@ -39,7 +36,6 @@ class Componente extends Component{
             
 
         );
-    }
 }
 
-export default Componente;
+export default DropZone;

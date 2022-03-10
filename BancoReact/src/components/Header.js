@@ -1,23 +1,29 @@
-import React,{Component} from "react";
-import Button from "react-bootstrap/esm/Button";
+import React from 'react'
+import { Link } from 'react-router-dom'
 
-class Componente extends Component{
-    //Permite rendeizar el código js
-    render(){
-        return(
-            <div class = "row bg-dark fixed-top">
-                <div class = "row text-light text-center">
-                <div class="col-4 align-self-center">
-                    <button type="button" class="btn btn-secondary">Secondary</button>
-                </div>
-                <div class="col-4 align-self-center">
-                    <h1>Banco Santondor</h1>
-                </div>
-                <div class="col-4 align-self-center">XD</div>
+function Header() {
+  return (
+    <div>
+        <nav className="navbar navbar-expand-lg navbar-light bg-dark">
+            <div className="container-fluid">
+                <a className="navbar-brand text-light" href="#">Banco Santondor</a>
+                <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span className="navbar-toggler-icon"></span>
+                </button>
+                <div className="collapse navbar-collapse" id="navbarNav">
+                    <ul className="navbar-nav">
+                        <li className="nav-item">
+                            <Link className="nav-link active text-light" aria-current="page" to='/'>Home</Link>
+                        </li>
+                        <li className="nav-item">
+                            <Link className="nav-link text-light" to='/login'>Login</Link>
+                        </li>
+                    </ul>
                 </div>
             </div>
-        );
-    }
+        </nav>
+    </div>
+  )
 }
 
-export default Componente;
+export default Header
