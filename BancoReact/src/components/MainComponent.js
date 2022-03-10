@@ -8,7 +8,8 @@ import ImageSlider from './ImageSlider';
 
 import Button from 'react-bootstrap/Button';
 
-import {Switch,Route,Redirect,withRouter,Routes} from 'react-router-dom'
+import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
+
 
 function Main() {
   return (
@@ -20,10 +21,11 @@ function Main() {
       {/* Sección nueva */}
       <div>
 
-      <Routes>
-      <Route path='/Login' component={Login}/>
-      </Routes>
-       
+      <Router>
+        <Routes>
+          <Route path='/login' element={ <Login /> }/>
+        </Routes>
+      </Router>
       
       </div>
     </div>

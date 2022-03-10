@@ -11,9 +11,9 @@ function App() {
       <div className="container">
         <div>
 
-          <BrowserRouter>
+          
           <Main/>
-          </BrowserRouter>
+          
 
         </div> 
       </div>
