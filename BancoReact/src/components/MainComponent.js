@@ -1,14 +1,14 @@
 //Importamos el componente creado
 import React from 'react';
-import Componente from './components/Componente';
+import Componente from './Componente';
 
-import Header from './components/Header';
-import Login from './components/Login';
-import ImageSlider from './components/ImageSlider';
+import Header from './Header';
+import Login from './Login';
+import ImageSlider from './ImageSlider';
 
 import Button from 'react-bootstrap/Button';
 
-import {Switch,Route,Redirect,withRouter} from 'react-router-dom'
+import {Switch,Route,Redirect,withRouter,Routes} from 'react-router-dom'
 
 function Main() {
   return (
@@ -20,9 +20,10 @@ function Main() {
       {/* Sección nueva */}
       <div>
 
-      <Switch>
+      <Routes>
       <Route path='/Login' component={Login}/>
-      </Switch>  
+      </Routes>
+       
       
       </div>
     </div>
@@ -31,4 +32,4 @@ function Main() {
   );
 }
 
-export default withRouter(Main);
+export default (Main);
