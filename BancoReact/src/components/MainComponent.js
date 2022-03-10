@@ -4,6 +4,7 @@ import Componente from './Componente';
 
 import Header from './Header';
 import Login from './Login';
+import Home from './Home';
 import ImageSlider from './ImageSlider';
 
 import Button from 'react-bootstrap/Button';
@@ -16,14 +17,14 @@ function Main() {
       <React.Fragment>
 
     <div className="container">
-      <Header/>
-      <ImageSlider/>
+
       {/* Sección nueva */}
       <div>
 
       <Router>
         <Routes>
           <Route path='/login' element={ <Login /> }/>
+          <Route path='/home' element={ <Home /> }/>
         </Routes>
       </Router>
       
