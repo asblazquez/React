@@ -14,13 +14,13 @@ const ImageSlider = () => {
                 </div>
                 <div className="carousel-inner">
                     <div className="carousel-item active">
-                        <img src={imagen1} className="d-block w-100" alt="Slide 1"/>
+                        <img src={imagen1} className="d-block w-100 ratio" alt="Slide 1"/>
                     </div>
                     <div className="carousel-item">
-                        <img src={imagen2} className="d-block w-100" alt="Slide 2"/>
+                        <img src={imagen2} className="d-block w-100 ratio" alt="Slide 2"/>
                     </div>
                     <div className="carousel-item">
-                        <img src={imagen3} className="d-block w-100" alt="Slide 3"/>
+                        <img src={imagen3} className="d-block w-100 ratio" alt="Slide 3"/>
                     </div>
                 </div>
                 <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">

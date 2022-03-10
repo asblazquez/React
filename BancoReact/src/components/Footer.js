@@ -16,7 +16,9 @@ const Footer = () => {
                         <Link to='/' className = 'col-12 col-md-3 d-flex aling-items-center justyfy-content-center'>
                             <img src={TwitterIcon} className = 'mx-2' height='50'/>
                         </Link>
-                        <img src={TelefonoIcon} className = 'col-12 col-md-3 d-flex aling-items-center justyfy-content-center mx-2'/>
+                        <Link to='/home' className = 'col-12 col-md-3 d-flex aling-items-center justyfy-content-center'>
+                            <img src={TelefonoIcon} className = 'mx-2' height='50'/>
+                        </Link>
                     </nav>
                     <br/>
                     <nav className='row'>
