@@ -1,7 +1,7 @@
 import React,{Component} from "react";
-import imagen1 from './assets/ImagenBanco.png';
-import imagen2 from './assets/GrafismoBanco.png';
-import imagen3 from './assets/AhorrarGrafismo.png';
+import imagen1 from './assets/Pokemon1.jpg';
+import imagen2 from './assets/Pokemon2.jpg';
+import imagen3 from './assets/Pokemon3.png';
 
 const ImageSlider = () => {
     return(
@@ -14,13 +14,13 @@ const ImageSlider = () => {
                 </div>
                 <div className="carousel-inner">
                     <div className="carousel-item active">
-                        <img src={imagen1} className="d-block w-100" alt="..."/>
+                        <img src={imagen1} className="d-block w-100" alt="Slide 1"/>
                     </div>
                     <div className="carousel-item">
-                        <img src={imagen2} className="d-block w-100" alt="..."/>
+                        <img src={imagen2} className="d-block w-100" alt="Slide 2"/>
                     </div>
                     <div className="carousel-item">
-                        <img src={imagen3} className="d-block w-100" alt="..."/>
+                        <img src={imagen3} className="d-block w-100" alt="Slide 3"/>
                     </div>
                 </div>
                 <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
