@@ -7,16 +7,14 @@ import {BrowserRouter} from 'react-router-dom';
 
 function App() {
   return (
-    <div class = "bg-secondary">
-      <div className="container">
-        <div>
+    <div className="container">
+      <div>
 
-          
-          <Main/>
-          
+        
+        <Main/>
+        
 
-        </div> 
-      </div>
+      </div> 
     </div>
   );
 }
