@@ -1,11 +1,5 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import TwitterIcon from './assets/TwitterIcon.png'
-import FacebookIcon from './assets/FacebookIcon.png'
-import InstagramIcon from './assets/InstagramIcon.png'
-import TelefonoIcon from './assets/TelefonoIcon.png'
-import DireccionIcon from './assets/DireccionIcon.png'
-import EmailIcon from './assets/EmailIcon.png'
 import { FaInstagram } from "react-icons/fa";
 import { FaTwitter } from 'react-icons/fa'
 import { FaFacebook } from 'react-icons/fa'
