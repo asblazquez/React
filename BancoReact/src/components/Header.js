@@ -18,6 +18,9 @@ function Header() {
                         <li className="nav-item">
                             <Link className="nav-link text-light" to='/login'>Login</Link>
                         </li>
+                        <li className="nav-item">
+                            <Link className="nav-link text-light" to='/register'>Register</Link>
+                        </li>
                     </ul>
                 </div>
             </div>
