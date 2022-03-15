@@ -8,7 +8,7 @@ import { FaCannabis } from 'react-icons/fa'
 const Footer = () => {
     return(
         <div>
-            <footer className="footer">
+            <footer className="footer ">
                 <div className="container bottom_border">
                     <div className="row">
                     <div className=" col-sm-4 col-md col-sm-4  col-12 col">
