@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import MenuSidebar from './MenuSidebar'
 
 function Header() {
   return (
@@ -20,6 +21,8 @@ function Header() {
                         </li>
                         <li className="nav-item">
                             <Link className="nav-link text-light" to='/register'>Register</Link>
+                        </li>
+                        <li className='nav-item'>
                         </li>
                     </ul>
                 </div>
